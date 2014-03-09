@@ -60,12 +60,12 @@
 <packages>
 <package name="45558-0003">
 <description>Molex 45558-0003 6 Pin PCIe Power Header</description>
-<pad name="P$2" x="0.381" y="-9.525" drill="1.778" shape="square"/>
-<pad name="P$1" x="-3.81" y="-9.525" drill="1.778" shape="square"/>
-<pad name="P$3" x="4.572" y="-9.525" drill="1.778" shape="square"/>
-<pad name="P$4" x="-3.81" y="-5.334" drill="1.778" shape="square"/>
-<pad name="P$5" x="0.381" y="-5.334" drill="1.778" shape="square"/>
-<pad name="P$6" x="4.572" y="-5.334" drill="1.778" shape="square"/>
+<pad name="P$5" x="0.381" y="-9.525" drill="1.778" shape="square"/>
+<pad name="P$4" x="-3.81" y="-9.525" drill="1.778" shape="square"/>
+<pad name="P$6" x="4.572" y="-9.525" drill="1.778" shape="square"/>
+<pad name="P$1" x="-3.81" y="-5.334" drill="1.778" shape="square"/>
+<pad name="P$2" x="0.381" y="-5.334" drill="1.778" shape="square"/>
+<pad name="P$3" x="4.572" y="-5.334" drill="1.778" shape="square"/>
 <hole x="-3.81" y="1.9558" drill="2.9972"/>
 <hole x="4.572" y="1.9558" drill="2.9972"/>
 <wire x1="-6.477" y1="-4.1402" x2="7.239" y2="-4.1402" width="0.127" layer="51"/>

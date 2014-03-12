@@ -31,3 +31,4 @@ Libraries for Eagle v6.0+. License: CC v3.0 Share-Alike (http://creativecommons.
 
 - [Traco Power TSR 1-2433 3.3v Switching Regulator](https://www.adafruit.com/products/1066)
 - [Traco Power TSR 1-2450 5.0v Switching Regulator](https://www.adafruit.com/products/1065)
+- [MCP1825 3.3v LDO Linear Regulator](https://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en531457)

@@ -6,6 +6,11 @@ Libraries for Eagle v6.0+. License: CC v3.0 Share-Alike (http://creativecommons.
 
 ## Components ##
 
+### SteelCaveRobotics-AnalogIC.lbr ###
+
+- [TS3A5017DR Dual Analog Mux/Demux IC](https://www.sparkfun.com/products/10652)
+
+
 ### SteelCaveRobotics-Boards.lbr ###
 
 - [Teensy 2.0 (24 pin)](http://pjrc.com/teensy/index.html)

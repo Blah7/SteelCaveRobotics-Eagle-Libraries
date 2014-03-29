@@ -33,3 +33,14 @@ Component libraries for Eagle v6.0+.<br/>
 - [Traco Power TSR 1-2433 3.3v Switching Regulator](https://www.adafruit.com/products/1066)
 - [Traco Power TSR 1-2450 5.0v Switching Regulator](https://www.adafruit.com/products/1065)
 - [MCP1825 3.3v LDO Linear Regulator](https://www.microchip.com/wwwproducts/Devices.aspx?dDocName=en531457)
+
+
+### SteelCaveRobotics-Sensors.lbr ###
+
+- MQ-X Gas Sensors
+
+	* [MQ-3 Alcohol Gas Sensor](https://www.sparkfun.com/products/8880)
+	* [MQ-4 Methane CNG Gas Sensor](https://www.sparkfun.com/products/9404)
+	* [MQ-6 LPG Gas Sensor](https://www.sparkfun.com/products/9405)
+	* [MQ-7 Carbon Monoxide Sensor](https://www.sparkfun.com/products/9403)
+	* [MQ-8 Hydrogen Gas Sensor](https://www.sparkfun.com/products/10916)

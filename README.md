@@ -16,6 +16,9 @@ Component libraries for Eagle v6.0+.<br/>
 
 - [Teensy 2.0 (24 pin)](http://pjrc.com/teensy/index.html)
 	* Excludes pins `PE6`, `AREF`, `PD5`, `Vcc2`, `GND2`, `RST` and `PD4`.
+- [ChronoDot RTC](https://www.adafruit.com/products/255)
+- [Trinket 3.3V](https://www.adafruit.com/products/1500)
+- [Trinket 5.0V](https://www.adafruit.com/products/1501)
 
 
 ### SteelCaveRobotics-Connectors.lbr ###
@@ -38,7 +41,6 @@ Component libraries for Eagle v6.0+.<br/>
 ### SteelCaveRobotics-Sensors.lbr ###
 
 - MQ-X Gas Sensors
-
 	* [MQ-3 Alcohol Gas Sensor](https://www.sparkfun.com/products/8880)
 	* [MQ-4 Methane CNG Gas Sensor](https://www.sparkfun.com/products/9404)
 	* [MQ-6 LPG Gas Sensor](https://www.sparkfun.com/products/9405)

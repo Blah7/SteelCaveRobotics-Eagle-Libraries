@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -150,36 +150,36 @@
 </packages>
 <symbols>
 <symbol name="TEENSY2.0">
-<wire x1="-12.7" y1="30.48" x2="-12.7" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-30.48" x2="12.7" y2="-30.48" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-30.48" x2="12.7" y2="30.48" width="0.254" layer="94"/>
-<wire x1="12.7" y1="30.48" x2="-12.7" y2="30.48" width="0.254" layer="94"/>
-<pin name="GND" x="-15.24" y="27.94" visible="pin" length="short" direction="pwr"/>
-<pin name="PB0" x="-15.24" y="22.86" visible="pin" length="short"/>
-<pin name="PB1" x="-15.24" y="17.78" visible="pin" length="short"/>
-<pin name="PB2" x="-15.24" y="12.7" visible="pin" length="short"/>
-<pin name="PB3" x="-15.24" y="7.62" visible="pin" length="short"/>
-<pin name="PB7" x="-15.24" y="2.54" visible="pin" length="short"/>
-<pin name="PD0" x="-15.24" y="-2.54" visible="pin" length="short"/>
-<pin name="PD1" x="-15.24" y="-7.62" visible="pin" length="short"/>
-<pin name="PD2" x="-15.24" y="-12.7" visible="pin" length="short"/>
-<pin name="PD3" x="-15.24" y="-17.78" visible="pin" length="short"/>
-<pin name="PC6" x="-15.24" y="-22.86" visible="pin" length="short"/>
-<pin name="PC7" x="-15.24" y="-27.94" visible="pin" length="short"/>
-<pin name="PD6" x="15.24" y="-27.94" visible="pin" length="short" rot="R180"/>
-<pin name="PD7" x="15.24" y="-22.86" visible="pin" length="short" rot="R180"/>
-<pin name="PB4" x="15.24" y="-17.78" visible="pin" length="short" rot="R180"/>
-<pin name="PB5" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
-<pin name="PB6" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="PF7" x="15.24" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="PF6" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
-<pin name="PF5" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
-<pin name="PF4" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
-<pin name="PF1" x="15.24" y="17.78" visible="pin" length="short" rot="R180"/>
-<pin name="PF0" x="15.24" y="22.86" visible="pin" length="short" rot="R180"/>
-<pin name="VCC" x="15.24" y="27.94" visible="pin" length="short" direction="pwr" rot="R180"/>
-<text x="-10.16" y="33.02" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-12.7" y1="35.56" x2="-12.7" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-35.56" x2="12.7" y2="-35.56" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-35.56" x2="12.7" y2="35.56" width="0.254" layer="94"/>
+<wire x1="12.7" y1="35.56" x2="-12.7" y2="35.56" width="0.254" layer="94"/>
+<pin name="GND" x="-15.24" y="-33.02" visible="pin" length="short" direction="pwr"/>
+<pin name="PB0" x="15.24" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="SCLK/PB1" x="15.24" y="33.02" visible="pin" length="short" rot="R180"/>
+<pin name="MOSI/PB2" x="15.24" y="30.48" visible="pin" length="short" rot="R180"/>
+<pin name="MISO/PB3" x="15.24" y="27.94" visible="pin" length="short" rot="R180"/>
+<pin name="PB7" x="15.24" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SCL/PD0" x="15.24" y="22.86" visible="pin" length="short" rot="R180"/>
+<pin name="SDA/PD1" x="15.24" y="20.32" visible="pin" length="short" rot="R180"/>
+<pin name="RX/PD2" x="15.24" y="15.24" visible="pin" length="short" rot="R180"/>
+<pin name="TX/PD3" x="15.24" y="12.7" visible="pin" length="short" rot="R180"/>
+<pin name="PC6" x="15.24" y="2.54" visible="pin" length="short" rot="R180"/>
+<pin name="PC7" x="15.24" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="ADC9/LED/PD6" x="15.24" y="-33.02" visible="pin" length="short" rot="R180"/>
+<pin name="ADC10/PD7" x="15.24" y="-27.94" visible="pin" length="short" rot="R180"/>
+<pin name="ADC11/PB4" x="15.24" y="-25.4" visible="pin" length="short" rot="R180"/>
+<pin name="ADC12/PB5" x="15.24" y="-22.86" visible="pin" length="short" rot="R180"/>
+<pin name="ADC13/PB6" x="15.24" y="-20.32" visible="pin" length="short" rot="R180"/>
+<pin name="ADC7/PF7" x="15.24" y="-17.78" visible="pin" length="short" rot="R180"/>
+<pin name="ADC6/PF6" x="15.24" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="ADC5/PF5" x="15.24" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="ADC4/PF4" x="15.24" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="ADC1/PF1" x="15.24" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="ADC0/PF0" x="15.24" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="-15.24" y="33.02" visible="pin" length="short" direction="pwr"/>
+<text x="-10.16" y="38.1" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-38.1" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="CHRONODOT">
 <description>ChronoDot V2.0</description>
@@ -187,14 +187,14 @@
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
 <wire x1="10.16" y1="10.16" x2="-10.16" y2="10.16" width="0.254" layer="94"/>
-<pin name="BAT" x="-12.7" y="7.62" visible="pin" length="short"/>
-<pin name="32K" x="-12.7" y="2.54" visible="pin" length="short"/>
-<pin name="SQW" x="-12.7" y="-2.54" visible="pin" length="short"/>
-<pin name="!RST!" x="-12.7" y="-7.62" visible="pin" length="short"/>
-<pin name="SDA" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
-<pin name="SCL" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
-<pin name="VCC" x="12.7" y="2.54" visible="pin" length="short" direction="pwr" rot="R180"/>
-<pin name="GND" x="12.7" y="7.62" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="BAT" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="32K" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SQW" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="!RST!" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="SDA" x="12.7" y="7.62" visible="pin" length="short" rot="R180"/>
+<pin name="SCL" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VCC" x="-12.7" y="7.62" visible="pin" length="short" direction="pwr"/>
+<pin name="GND" x="-12.7" y="-7.62" visible="pin" length="short" direction="pwr"/>
 <text x="-7.62" y="12.7" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
@@ -206,17 +206,17 @@
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
 <pin name="BAT+" x="-12.7" y="10.16" visible="pin" length="short" direction="pwr"/>
-<pin name="GND" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="#4" x="-12.7" y="0" visible="pin" length="short"/>
-<pin name="#3" x="-12.7" y="-5.08" visible="pin" length="short"/>
-<pin name="RST" x="-12.7" y="-10.16" visible="pin" length="short"/>
-<pin name="5V" x="12.7" y="-10.16" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-12.7" y="-10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="#4" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="#3" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="RST" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="5V" x="12.7" y="7.62" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="#2" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="#1" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="#0" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="#1" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="#0" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="USB+" x="12.7" y="10.16" visible="pin" length="short" direction="pwr" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.27" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 <symbol name="TRINKET_3V3">
 <description>Adafruit Trinket - 3.3V
@@ -226,21 +226,21 @@
 <wire x1="10.16" y1="-12.7" x2="10.16" y2="12.7" width="0.254" layer="94"/>
 <wire x1="10.16" y1="12.7" x2="-10.16" y2="12.7" width="0.254" layer="94"/>
 <pin name="BAT+" x="-12.7" y="10.16" visible="pin" length="short" direction="pwr"/>
-<pin name="GND" x="-12.7" y="5.08" visible="pin" length="short" direction="pwr"/>
-<pin name="#4" x="-12.7" y="0" visible="pin" length="short"/>
-<pin name="#3" x="-12.7" y="-5.08" visible="pin" length="short"/>
-<pin name="RST" x="-12.7" y="-10.16" visible="pin" length="short"/>
-<pin name="3V" x="12.7" y="-10.16" visible="pin" length="short" direction="pwr" rot="R180"/>
+<pin name="GND" x="-12.7" y="-10.16" visible="pin" length="short" direction="pwr"/>
+<pin name="#4" x="12.7" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="#3" x="12.7" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="RST" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="3V" x="12.7" y="7.62" visible="pin" length="short" direction="pwr" rot="R180"/>
 <pin name="#2" x="12.7" y="-5.08" visible="pin" length="short" rot="R180"/>
-<pin name="#1" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
-<pin name="#0" x="12.7" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="#1" x="12.7" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="#0" x="12.7" y="0" visible="pin" length="short" rot="R180"/>
 <pin name="USB+" x="12.7" y="10.16" visible="pin" length="short" direction="pwr" rot="R180"/>
 <text x="-7.62" y="15.24" size="1.27" layer="95">&gt;NAME</text>
-<text x="-7.62" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
+<text x="-7.62" y="-15.24" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TEENSY2.0" prefix="U" uservalue="yes">
+<deviceset name="TEENSY2.0">
 <description>Teensy 2.0 (24-pin)</description>
 <gates>
 <gate name="G$1" symbol="TEENSY2.0" x="0" y="0"/>
@@ -248,29 +248,29 @@
 <devices>
 <device name="" package="TEENSY2.0">
 <connects>
+<connect gate="G$1" pin="ADC0/PF0" pad="23"/>
+<connect gate="G$1" pin="ADC1/PF1" pad="22"/>
+<connect gate="G$1" pin="ADC10/PD7" pad="14"/>
+<connect gate="G$1" pin="ADC11/PB4" pad="15"/>
+<connect gate="G$1" pin="ADC12/PB5" pad="16"/>
+<connect gate="G$1" pin="ADC13/PB6" pad="17"/>
+<connect gate="G$1" pin="ADC4/PF4" pad="21"/>
+<connect gate="G$1" pin="ADC5/PF5" pad="20"/>
+<connect gate="G$1" pin="ADC6/PF6" pad="19"/>
+<connect gate="G$1" pin="ADC7/PF7" pad="18"/>
+<connect gate="G$1" pin="ADC9/LED/PD6" pad="13"/>
 <connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="MISO/PB3" pad="5"/>
+<connect gate="G$1" pin="MOSI/PB2" pad="4"/>
 <connect gate="G$1" pin="PB0" pad="2"/>
-<connect gate="G$1" pin="PB1" pad="3"/>
-<connect gate="G$1" pin="PB2" pad="4"/>
-<connect gate="G$1" pin="PB3" pad="5"/>
-<connect gate="G$1" pin="PB4" pad="15"/>
-<connect gate="G$1" pin="PB5" pad="16"/>
-<connect gate="G$1" pin="PB6" pad="17"/>
 <connect gate="G$1" pin="PB7" pad="6"/>
 <connect gate="G$1" pin="PC6" pad="11"/>
 <connect gate="G$1" pin="PC7" pad="12"/>
-<connect gate="G$1" pin="PD0" pad="7"/>
-<connect gate="G$1" pin="PD1" pad="8"/>
-<connect gate="G$1" pin="PD2" pad="9"/>
-<connect gate="G$1" pin="PD3" pad="10"/>
-<connect gate="G$1" pin="PD6" pad="13"/>
-<connect gate="G$1" pin="PD7" pad="14"/>
-<connect gate="G$1" pin="PF0" pad="23"/>
-<connect gate="G$1" pin="PF1" pad="22"/>
-<connect gate="G$1" pin="PF4" pad="21"/>
-<connect gate="G$1" pin="PF5" pad="20"/>
-<connect gate="G$1" pin="PF6" pad="19"/>
-<connect gate="G$1" pin="PF7" pad="18"/>
+<connect gate="G$1" pin="RX/PD2" pad="9"/>
+<connect gate="G$1" pin="SCL/PD0" pad="7"/>
+<connect gate="G$1" pin="SCLK/PB1" pad="3"/>
+<connect gate="G$1" pin="SDA/PD1" pad="8"/>
+<connect gate="G$1" pin="TX/PD3" pad="10"/>
 <connect gate="G$1" pin="VCC" pad="24"/>
 </connects>
 <technologies>
@@ -279,7 +279,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="CHRONODOT" uservalue="yes">
+<deviceset name="CHRONODOT">
 <description>ChronoDot V2.0</description>
 <gates>
 <gate name="G$1" symbol="CHRONODOT" x="0" y="0"/>
@@ -302,7 +302,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRINKET_5V" uservalue="yes">
+<deviceset name="TRINKET_5V">
 <description>Adafruit Trinket - 5V
 &lt;a href="https://www.adafruit.com/products/1501"&gt;https://www.adafruit.com/products/1501&lt;/a&gt;</description>
 <gates>
@@ -328,7 +328,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="TRINKET_3V3" uservalue="yes">
+<deviceset name="TRINKET_3V3">
 <description>Adafruit Trinket - 3.3V
 &lt;a href="https://www.adafruit.com/products/1500"&gt;https://www.adafruit.com/products/1500&lt;/a&gt;</description>
 <gates>

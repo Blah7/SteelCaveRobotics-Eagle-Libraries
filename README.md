@@ -14,8 +14,7 @@ Component libraries for Eagle v7.0+.<br/>
 
 ### SteelCaveRobotics-Boards.lbr ###
 
-- [Teensy 2.0 (24 pin)](http://pjrc.com/teensy/index.html)
-	* Excludes pins `PE6`, `AREF`, `PD5`, `Vcc2`, `GND2`, `RST` and `PD4`.
+- [Teensy 2.0](http://pjrc.com/teensy/index.html)
 - [ChronoDot RTC](https://www.adafruit.com/products/255)
 - [Trinket 3.3V](https://www.adafruit.com/products/1500)
 - [Trinket 5.0V](https://www.adafruit.com/products/1501)

@@ -18,6 +18,7 @@ Component libraries for Eagle v7.0+.<br/>
 - [ChronoDot RTC](https://www.adafruit.com/products/255)
 - [Trinket 3.3V](https://www.adafruit.com/products/1500)
 - [Trinket 5.0V](https://www.adafruit.com/products/1501)
+- [Bi-Directional Logic Level Converter](https://www.sparkfun.com/products/12009)
 
 
 ### SteelCaveRobotics-Connectors.lbr ###

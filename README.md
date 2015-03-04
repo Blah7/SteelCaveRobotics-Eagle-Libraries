@@ -1,8 +1,9 @@
 Steel Cave Robotics Eagle Libraries
 ===================================
 
-Component libraries for Eagle v7.0+.<br/>
-**License:** Creative Commons Attribution-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-sa/4.0/).
+Component libraries for Eagle v7.0+
+
+**License:** Creative Commons Attribution-ShareAlike 4.0 International ([https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)).
 
 
 ## Components ##
@@ -10,6 +11,7 @@ Component libraries for Eagle v7.0+.<br/>
 ### SteelCaveRobotics-AnalogIC.lbr ###
 
 - [TS3A5017DR Dual Analog Mux/Demux IC](https://www.sparkfun.com/products/10652)
+- [TI L293DNEE4 Motor Driver, Quad Half-H, 600mA, DIP-16](http://www.newark.com/texas-instruments/l293dnee4/motor-driver-half-h-600ma-dip/dp/52K5762)
 
 
 ### SteelCaveRobotics-Boards.lbr ###
